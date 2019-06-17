@@ -19,6 +19,9 @@
 </filter-mapping>
 
 
+  <listener>
+    <listener-class>com.wf.global.URLParserListener</listener-class>
+  </listener>
 
   <!--spring mvc 核心控制器-->
   <servlet>
